@@ -1,0 +1,9 @@
+server:
+  port: 8081
+
+spring:
+  # 配置文件上传大小限制
+  servlet:
+    multipart:
+      max-file-size: 50MB
+      max-request-size: 50MB
